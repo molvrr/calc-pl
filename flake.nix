@@ -17,6 +17,7 @@
               ocamlformat-rpc-lib
               utop
               menhir
+              ounit2
             ];
         };
       });

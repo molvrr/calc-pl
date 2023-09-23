@@ -15,3 +15,8 @@
 (env
   (dev
     (flags -w -27)))
+
+(tests
+  (names test)
+  (libraries main ounit2)
+  (modules test))
