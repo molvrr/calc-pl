@@ -1,0 +1,17 @@
+(library
+  (name main)
+  (libraries ast)
+  (modules main parser lexer))
+
+(library
+  (name ast)
+  (modules ast))
+
+(menhir
+  (modules parser))
+
+(ocamllex lexer)
+
+(env
+  (dev
+    (flags -w -27)))
