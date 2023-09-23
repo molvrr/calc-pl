@@ -12,6 +12,7 @@ let tests =
   ; make_i "mult of mult" 40 "2*2*10"
   ; make_i "mult on right of add" 22 "2+2*10"
   ; make_i "mult on left of add" 14 "2*2+10"
+  ; make_i "nested add" 22 "(10 + 1) + (5 + 6)"
   ]
 ;;
 
